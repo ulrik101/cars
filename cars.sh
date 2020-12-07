@@ -11,12 +11,22 @@ do
     read userInput
     case $userInput in
     1)
-        break
+        
+        echo "Enter Year of car: "
+        read carYear
+        echo "Enter Make of car: "
+        read carMake
+        echo "Enter Model of car: "
+        read carModel
+        break=":"
+        carinfo=$carYear$break$carMake$break$carModel
+        echo $carinfo >> My_old_cars
         ;;
     2)
-        break
+        sort My_old_cars
         ;;
     3)
+        echo "Exiting program. Goodbye. "
         break
         ;;
     *)
