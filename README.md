@@ -1,3 +1,10 @@
+## Identifying Information: 
+1. Name: David Ulriksen
+2. Student ID: 2270761
+3. Email: ulrik101@mail.chapman.edu
+4. Class: 298-02
+5. Assignment: numbers 
+
 # Application Purpose
 
 This repo will contain a bash script named “cars.sh” that will help a user maintain an inventory of old cars.  
