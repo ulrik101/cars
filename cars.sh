@@ -20,7 +20,7 @@ do
         read carModel
         break=":"
         carinfo=$carYear$break$carMake$break$carModel
-        echo $carinfo >> My_old_cars
+        echo "$carinfo" >> My_old_cars
         ;;
     2)
         sort My_old_cars
